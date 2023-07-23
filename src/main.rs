@@ -47,7 +47,7 @@ fn main() {
             percentage_left
         );
         io::stdout().flush().unwrap();
-        sleep(time::Duration::new(0, 100));
+        sleep(time::Duration::new(1, 0));
     }
     println!();
     println!("[INFO] Timer Expired {BELL_CODE}");
